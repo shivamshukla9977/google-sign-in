@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+- Ruby version => ruby '3.0.0'
 
-* System dependencies
+- Rails version => 6.1.4
 
-* Configuration
+- Gem install bundle install
 
-* Database creation
+- Create Database rails db:create rails db:migrate
 
-* Database initialization
+- To run rails server rails s
 
-* How to run the test suite
+    - run on browser: localhost:3000
 
-* Services (job queues, cache servers, search engines, etc.)
+- To run test cases bundle exec rspec spec
 
-* Deployment instructions
-
-* ...
+- Google SSO gem used : https://github.com/basecamp/google_sign_in
